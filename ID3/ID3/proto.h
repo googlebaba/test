@@ -1,0 +1,16 @@
+NEGENTROPY negentropy ( UINT column, NODE *parent );
+void print_tree ( NODE *node, UINT level);
+void free_tree ( NODE  * );
+NODE* ID3 ( NODE* parent, UINT state, UINT *used );
+void err_exit ( CHAR* , UINT );
+MATRIX *build_matrix ( );
+void free_matrix ( );
+void read_matrix ( CHAR * );
+void file_size ( CHAR * );
+CHAR **read_tags ( CHAR * );
+void free_tags ();
+UINT *Allocate_n_dif_vars ( );
+UINT *Allocate_used ();
+STRING **Allocate_dif_vars ();
+void find_dif_vars (CHAR *file_name);
+bool exsit(UINT n_dif_vars, UINT i, CHAR *ptr);
