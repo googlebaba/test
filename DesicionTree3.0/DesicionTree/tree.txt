@@ -1,0 +1,15 @@
+|-Outlook
+	|-Sunny
+		|-Humidity
+			|-Normal
+				|-+
+			|-High
+				|--
+	|-Rain
+		|-Wind
+			|-Weak
+				|-+
+			|-Strong
+				|--
+	|-Overcast
+		|-+
